@@ -12,10 +12,11 @@ def main() -> None:
     print("Sistema Operativo:", platform.system())
     print("Release:", platform.release())
     print("Version:", platform.version())
-    print("Nombre de la Maquina:",platform.node())
+    print("Nombre de la Maquina:", platform.node())
     print("Procesador:", platform.processor())
     print("Arquitectura del Procesador:", platform.machine())
     print("Version del Procesador", cpu_info())
+    os.system("pause")
     
     
 
